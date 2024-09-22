@@ -1,1 +1,49 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 
+body {
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-align: center;
+}
+
+img {
+  border-radius: 6px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.img-container {
+  background: #b2d9f3;
+}
+
+.navigation-link {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-link a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 120px;
+  text-align: center;
+}
+
+.more-info-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
