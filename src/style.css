@@ -53,7 +53,7 @@
   margin: 0 auto;
 }
 
-.about-page-container {
+.other-page-container {
   max-width: 70%;
   margin: 0 auto;
 }
@@ -81,14 +81,15 @@
   padding: 8px;
 }
 
-.about-us-header {
+.other-page-header {
   margin-top: 100px;
   text-align: center;
 }
 
-h2 {
+h2,
+h3 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 p {
@@ -134,4 +135,9 @@ a {
 
 .contact {
   text-align: center;
+}
+
+.contact-us-text {
+  text-align: center;
+  margin-top: 20px;
 }

@@ -25,64 +25,102 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/style.css" />
-    <title>About Us</title>
+    <title>Sales</title>
   </head>
   <body>
-    <div class="about-page-container">
-      <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="index.html"
-            ><img
-              src="images/logo-transparent.png"
-              alt=""
-              class="navbar-logo img-fluid"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+    <div id="navbar-placeholder"></div>
+    <script>
+      document.getElementById(
+        "navbar-placeholder"
+      ).innerHTML = `<nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"
+      ><img
+        src="images/logo-transparent.png"
+        alt=""
+        class="navbar-logo img-fluid"
+    /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"
+            >Home</a
           >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html#contact">Contact us</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="services.html"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Services
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="sales.html">Sales</a>
-                  <a class="dropdown-item" href="management.html">Management</a>
-                  <a class="dropdown-item" href="rentals.html">Rentals</a>
-                </div>
-              </li>
-            </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html#contact">Contact us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="sales.html">Sales</a></li>
+            <li>
+              <a class="dropdown-item" href="management.html">Management</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="rentals.html">Rentals</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>`;
+    </script>
+    <div class="other-page-container">
+      <h1 class="other-page-header">Sales Service</h1>
+      <h2>Life is a journey...</h2>
+      <div class="sales-text">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-8">
+            <p>
+              We understand that there will come a time when you are ready to
+              move on and we want to help you do that without any fuss or
+              bother.
+            </p>
+            <p>
+              In our sales service, we will hold your hand throughout the whole
+              process and ensure that the process is simple and straight
+              forward. We can recommend a trusted solicitor who can deal with
+              absolutely everything, including arranging a Power of Attorney in
+              your home country. We can also provide recommendations for
+              currency exchange companies, where you will get the best rates
+              when transferring your sales proceeds from Spain.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/sales-image.jpg" class="img-fluid" />
           </div>
         </div>
-      </nav>
+      </div>
+      <div class="contact-us-text">
+        <div>
+          For a free no-obligation valuation, please contact us <a href="contact.html">here</a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
