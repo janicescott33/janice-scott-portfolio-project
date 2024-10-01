@@ -5,13 +5,14 @@ class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
-  <div class="container">
+    <div class="container ">
+    <span class="navbar-logo">
     <a class="navbar-brand" href="index.html"
       ><img
-        src="images/logo-transparent.png"
+        src="images/logo.png"
         alt=""
-        class="navbar-logo img-fluid"
-    /></a>
+        class="navbar-brand"
+    /></a></span>
     <button
       class="navbar-toggler"
       type="button"
@@ -23,7 +24,7 @@ class Header extends HTMLElement {
     >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html"
@@ -46,7 +47,7 @@ class Header extends HTMLElement {
           >
             Services
           </a>
-          <ul class="dropdown-menu">
+        <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="sales.html">Sales</a></li>
             <li>
               <a class="dropdown-item" href="management.html">Management</a>
