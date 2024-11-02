@@ -30,13 +30,47 @@
   </head>
   <body>
     <header-component></header-component>
-    <div class="contact">
-      <h3 class="mt-5">📧 Contact us</h3>
-      <a href="mailto:hello@murciavillas.com" class="email-link"
-        >hello@murciavillas.com
-      </a>
-      <br />
-      <p class="mt-2">Tel: +34 625 140 635 (also WhatsApp) / +44 7708 026098</p>
+    <div class="other-page-container">
+      <div class="contact">
+        <h1 class="other-page-header">📧 Contact us</h1>
+        <br />Complete the form below and we will be in touch with you <br />(we
+        will never share your email with anyone)
+
+        <div class="form-container">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+            <div class="navigation-link">
+              <a href="management.html" class="more-info-link">Send</a>
+            </div>
+          </form>
+        </div>
+        Alternatively, you can contact us
+        <h3>
+          Email:
+          <a href="mailto:hello@murciavillas.com" class="email-link"
+            >hello@murciavillas.com
+          </a>
+        </h3>
+        <p class="mt-2">
+          Tel: +34 625 140 635 (also WhatsApp) / +44 7708 026098
+        </p>
+      </div>
     </div>
   </body>
 </html>
