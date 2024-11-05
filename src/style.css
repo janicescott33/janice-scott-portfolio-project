@@ -172,6 +172,11 @@ a {
 
 footer {
   background-color: #0f3565;
-  color: var(--second-color);
-  margin-top: 30px;
+  color: #aaaaaa;
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+.footer-link {
+  color: #aaaaaa;
 }

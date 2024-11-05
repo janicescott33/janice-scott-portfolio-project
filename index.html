@@ -9,7 +9,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script src="src/header.js"></script>
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -27,6 +28,10 @@
     ></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Spanish Property Solutions - Murcia Villas</title>
+    <meta
+      name="description"
+      content="Professional property management and rental services, for the Murcia region in Spain"
+    />
   </head>
   <body>
     <header-component></header-component>
@@ -35,7 +40,10 @@
       <header>
         <div class="header-container">
           <span class="header-img"
-            ><img src="images/header-image.jpg" alt="" class="img-fluid"
+            ><img
+              src="images/header-image.jpg"
+              alt="Murcia Villas logo"
+              class="img-fluid"
           /></span>
           <div class="overlay">
             <h1 class="text-center">Your Spanish Property Solutions</h1>
@@ -53,7 +61,7 @@
           <br />
           We would love to talk to you and help you, but firstly you can read a
           little bit about us
-          <a href="about.html">here.</a>
+          <a href="about.html" title="About Us page">here.</a>
           <br />
           <br />
           Whatever assistance you require, we can provide it. Here is a brief
@@ -73,7 +81,9 @@
                 to ensure your property reaches as wide an audience as possible.
               </p>
               <div class="navigation-link">
-                <a href="sales.html" class="more-info-link">More info</a>
+                <a href="sales.html" class="more-info-link" title="Sales page"
+                  >More info</a
+                >
               </div>
             </div>
 
@@ -86,7 +96,12 @@
                 visits; or full day-to-day rental management of your property.
               </p>
               <div class="navigation-link">
-                <a href="management.html" class="more-info-link">More info</a>
+                <a
+                  href="management.html"
+                  class="more-info-link"
+                  title="Management page"
+                  >More info</a
+                >
               </div>
             </div>
 
@@ -99,62 +114,24 @@
                 you and your property adhere to local regulations
               </p>
               <div class="navigation-link">
-                <a href="rentals.html" class="more-info-link">More info</a>
+                <a
+                  href="rentals.html"
+                  class="more-info-link"
+                  title="Rentals page"
+                  >More info</a
+                >
               </div>
             </div>
           </div>
           <div class="contact-us-text">
             For more information, click on any of the links above. Or you can
-            contact us <a href="contact.html">here</a>
+            contact us <a href="contact.html" title="Contact page">here</a>
           </div>
         </div>
       </div>
     </div>
     <footer>
-      <div class="container p-4">
-        <section class="">
-          <div class="row">
-            <div class="col-md-4">
-              <h6 class="text-center text-uppercase mb-4 font-weight-bold">
-                Company
-              </h6>
-              <p>
-                <a class="text-white">Privacy Policy</a>
-              </p>
-              <p>
-                <a class="text-white">Contact Us</a>
-              </p>
-            </div>
-
-            <div class="col-md-4">
-              <h6 class="text-center text-uppercase mb-4 font-weight-bold">
-                Contact
-              </h6>
-              <p>📧 hello@murciavillas.com</p>
-              <p></p>
-              <p>
-                <i class="fas fa-phone mr-3"></i> + 34 625 140 635
-                <br />(WhatsApp)
-              </p>
-              <p><i class="fas fa-phone mr-3"></i> + 44 7709 026098</p>
-            </div>
-
-            <div class="col-md-4">
-              <h6 class="text-center text-uppercase mb-4 font-weight-bold">
-                Murcia Villas
-              </h6>
-              <p>For all your Spanish property needs</p>
-            </div>
-          </div>
-        </section>
-      </div>
-
-      <div class="text-center p-3" style="background-color: #2772db">
-        © 2024 Copyright:
-        <a class="text-white" href="https://yourspanishpropertysolutions.com/"
-          >yourspanishpropertysolutions.com</a
-        >
-      </div>
+      <footer-component></footer-component>
     </footer>
   </body>
 </html>
