@@ -8,7 +8,7 @@ class Footer extends HTMLElement {
     <section class="">
       <div class="row">
         <div class="col-md-4">
-          <h6 class="text-center text-uppercase mb-4 font-weight-bold">
+          <h6 class="text-center text-uppercase mb-6 font-weight-bold">
             Company
           </h6>
           <p>
@@ -20,7 +20,7 @@ class Footer extends HTMLElement {
         </div>
 
         <div class="col-md-4">
-          <h6 class="text-center text-uppercase mb-4 font-weight-bold">
+          <h6 class="text-center text-uppercase mb-6 font-weight-bold">
             Contact
           </h6>
           <p>📧 hello@murciavillas.com</p>
@@ -32,7 +32,7 @@ class Footer extends HTMLElement {
         </div>
 
         <div class="col-md-4">
-          <h6 class="text-center text-uppercase mb-4 font-weight-bold">
+          <h6 class="text-center text-uppercase mb-6 font-weight-bold">
             Murcia Villas
           </h6>
           <p>For all your
@@ -42,7 +42,7 @@ class Footer extends HTMLElement {
     </section>
   </div>
 
-  <div class="text-center text-white p-3" style="background-color: #2772db">
+  <div class="h7 text-center text-white p-3" style="background-color: #2772db">
     © 2024 Copyright: yourspanishpropertysolutions.com</a
     >
   </div>`;

@@ -12,7 +12,8 @@
 }
 
 .navbar-brand {
-  max-width: 40%;
+  max-width: 60%;
+  height: auto;
 }
 
 .navbar-logo {
@@ -75,6 +76,12 @@
   margin: 0 auto;
 }
 
+@media all and (max-width: 500px) {
+  .other-page-container {
+    max-width: 90%;
+  }
+}
+
 .header-container {
   position: relative;
   text-align: center;
@@ -90,7 +97,7 @@
 .overlay {
   width: 100%;
   position: absolute;
-  top: 87%;
+  top: 86%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
@@ -98,13 +105,39 @@
   padding: 8px;
 }
 
+.overlay h1 {
+  margin-top: 0px;
+  font-size: 40px;
+}
+
+@media all and (max-width: 500px) {
+  .overlay {
+    top: 83%;
+    height: 25%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .overlay h1 {
+    margin-top: 4px;
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .navbar-logo {
+    max-width: 80%;
+  }
+}
+
 .other-page-header {
-  margin-top: 100px;
+  margin-top: 120px;
   text-align: center;
 }
 
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 10px;
@@ -168,6 +201,27 @@ a {
   margin: 30px auto;
   background: #e6e6e6;
   border-radius: 8px;
+}
+
+@media all and (max-width: 500px) {
+  .form-container {
+    max-width: 90%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .about-image,
+  .sales-image {
+    max-width: 90%;
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .rentals-image,
+  .management-image {
+    display: none;
+  }
 }
 
 footer {
