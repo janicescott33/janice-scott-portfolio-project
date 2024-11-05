@@ -46,6 +46,8 @@
   max-width: 40px;
   background-color: var(--first-color);
   border-color: var(--first-color);
+  margin: 0 auto;
+  text-align: center;
 }
 
 .dropdown-item {
@@ -166,4 +168,10 @@ a {
   margin: 30px auto;
   background: #e6e6e6;
   border-radius: 8px;
+}
+
+footer {
+  background-color: #0f3565;
+  color: var(--second-color);
+  margin-top: 30px;
 }
